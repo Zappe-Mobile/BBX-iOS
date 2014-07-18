@@ -1,0 +1,155 @@
+/* Localized versions of Info.plist keys */
+
+/* Home Screen */
+"Login"="Login";
+"About Us"="About Us";
+"Services"="Services";
+"Contact"="Contact";
+"Inquiry"="Inquiry";
+"How BBX Works"="How BBX Works";
+"Events"="Events";
+"Trade"="Trade";
+"Rewards"="Rewards";
+"My Card"="My Card";
+"BBX Trading Portal"="BBX Trading Portal";
+"Process BBX Transaction"="Process BBX Transaction";
+"Search BBX Directory"="Search BBX Directory";
+"Event"="Event";
+"Marketplace"="Marketplace";
+"My Account"="My Account";
+"Leisure Lifestyle"="Leisure Lifestyle";
+"Directory"="Directory";
+"VOL"="VOL";
+"Pay Fee"="Pay Fee";
+"Investment"="Investment";
+"Request Your Account Manager"="Request Your Account Manager";
+
+/* Login Screen */
+"Account Number"="Account Number";
+"Pin"="Pin";
+"Remember Me"="Remember Me";
+"Login"="Login";
+
+/* About Us Screen */
+"About BBX"="About BBX";
+"Trading Tips"="Trading Tips";
+"Trading Example"="Trading Example";
+"Testimonial"="Testimonial";
+
+/* Services Screen */
+"Services"="Services";
+"Accomodation"="Accomodation";
+"Hotel"="Hotel";
+"Restaurant"="Restaurant";
+"Petrol Station"="Petrol Station";
+"Car Service"="Car Service";
+
+/* Contact Screen */
+"Business Near Me"="Business Near Me";
+"Country"="Country";
+"View In List"="View In List";
+"View Map"="View Map";
+
+/* Inquiry Screen */
+"Inquiry"="Inquiry";
+"Name"="Name";
+"Email ID"="Email ID";
+"Message"="Message";
+"Submit"="Submit";
+
+/* Events Screen */
+"Events"="Events";
+"Todays Events"="Todays Events";
+
+/* Join BBX Screen */
+"Join BBX"="Join BBX";
+"FREE for limited time"="FREE for limited time";
+"Company Name"="Company Name";
+"ABN or Company number"= "ABN or Company number";
+"Business Address"="Business Address";
+"Suburb/State/Postcode"="Suburb/State/Postcode";
+"Phone"="Phone";
+"Mobile"="Mobile";
+"Email"="Email";
+"Website"="Website";
+"Director/Business Owner Name"="Director/Business Owner Name";
+"Date Of Birth"="Date Of Birth";
+"Driver License Number"="Driver License Number";
+"Type Of Business"="Type Of Business";
+"Years In Business"="Years In Business";
+"Referring BBX Ambassador"="Referring BBX Ambassador";
+"Special Comment"="Special Comment";
+"I Agree To BBX Terms and Conditions"="I Agree To BBX Terms and Conditions";
+"Please Select"="Please Select";
+"Finance"="Finance";
+"Email/Fax"="Email/Fax";
+"1-2 Years"="1-2 Years";
+"Enter Your Company Name"="Enter Your Company Name";
+"Enter Your Company Name or Trading"="Enter Your Company Name or Trading";
+
+/* Process BBX Transaction Screen */
+"I Am"="I Am";
+"Buyer"="Buyer";
+"Seller"="Seller";
+"Amount"="Amount";
+"Description"="Description";
+"Process Transaction"="Process Transaction";
+"View Transaction"="View Transaction";
+"View Payment"="View Payment";
+
+/* Search BBX Directory */
+"BBX Directory"="BBX Directory";
+"Secure Pay Now"="Secure Pay Now";
+"Enter Your Search Text"="Enter Your Search Text";
+"View Last Search"="View Last Search";
+"My Favourite"="My Favourite";
+
+/* Marketplace Screen */
+"Search"="Search";
+"Clothing"="Clothing";
+"Cars"="Cars";
+"Electronics"="Electronics";
+"Bike"="Bike";
+"Products"="Products";
+"Buy"="Buy";
+"Latest Listing"="Latest Listing";
+"Closing Soon"="Closing Soon";
+"My Buys"="My Buys";
+"Start Selling"="Start Selling";
+"My Selling/Sale"="My Selling/Sale";
+"Message"="Message";
+
+/* My Account Screen */
+"Trade Balance"="Trade Balance";
+"Credit Line"="Credit Line";
+"Available Spending"="Available Spending";
+"Cash Balance"="Cash Balance";
+"Trading Name"="Trading Name";
+"Company Name"="Company Name";
+"Contact"="Contact";
+"Street Address"="Street Address";
+"Mailing Address"="Mailing Address";
+"Phone"="Phone";
+"Mobile"="Mobile";
+"Email"="Email";
+"Website"="Website";
+"Account Manager"="Account Manager";
+"Franchise"="Franchise";
+"My Details"="My Details";
+"Transaction"="Transaction";
+"Payments"="Payments";
+"My Products"="My Products";
+
+/* Leisure & Lifestyle Screen */
+"Experience"="Experience";
+"Gift Packages"="Gift Packages";
+"Accomodation"="Accomodation";
+"My Buys"="My Buys";
+
+/* Pay Fee Screen */
+"Fee Due"="Fee Due";
+"Credit Card Number"="Credit Card Number";
+"Expiry Date"="Expiry Date";
+"Card Security Code"="Card Security Code";
+"Payment Amount"="Payment Amount";
+"Secure Pay Now"="Secure Pay Now";

@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13D65" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Accomodation" representedClassName="Accomodation" syncable="YES">
+        <attribute name="currencyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardAmount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardAvailableQuantity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardContactPerson" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardContactPhone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardDetails" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardHeading" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardMemberName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardPostalCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardSubHeading" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardTerms" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageFirst" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageFirstSmall" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageFourth" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageFourthSmall" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageSecond" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageSecondSmall" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageThird" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageThirdSmall" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="AccountInfo" representedClassName="AccountInfo" syncable="YES">
+        <attribute name="accountManagerEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="accountManagerName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="accountManagerNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="availableSpending" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cashBalance" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="companyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contactName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="creditLine" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="franchise" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mailingAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mobile" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="streetAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tradeBalance" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tradingName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="website" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="BuyHistory" representedClassName="BuyHistory" syncable="YES">
+        <attribute name="buyDateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="buyId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="buyMemId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="buyPricePerQuantityCash" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="buyPricePerQuantityTrade" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="buyQuantity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="buySelId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="buyStaIdType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selCrrId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selMemId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selTitle" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Card" representedClassName="Card" syncable="YES">
+        <attribute name="cardExpire" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cardName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cardNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cardType" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Contact" representedClassName="Contact" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contactPerson" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fax" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="franchiseName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mapLocation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CountryInfo" representedClassName="CountryInfo" syncable="YES">
+        <attribute name="countryId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="countryName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Directory" representedClassName="Directory" syncable="YES">
+        <attribute name="directoryAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="directoryBuyPeriod" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="directoryBuyPrepaidTextLink" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="directoryCommEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="directoryCommFax" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="directoryCommMobile" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="directoryCommPhone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="directoryCommWebsite" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="directoryCompany" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="directoryContactPerson" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="directoryId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="directoryMemberId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="directoryMepId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="directoryNetwordId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="directoryPPCText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="directoryPrcId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="directoryPrcImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="directoryProductCategory" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="directoryStaIdState" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="directoryState" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="directorySuburb" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="directoryText" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Events" representedClassName="Events" syncable="YES">
+        <attribute name="eventContactInfo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventCostDetails" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventDateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventVenueAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventVenueName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Experiences" representedClassName="Experiences" syncable="YES">
+        <attribute name="currencyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardAmount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardAvailableQuantity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardContactPerson" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardContactPhone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardDetails" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardHeading" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardMemberName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardPostalCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardSubHeading" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardTerms" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageFirst" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageFirstSmall" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageFourth" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageFourthSmall" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageSecond" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageSecondSmall" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageThird" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageThirdSmall" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="GiftPackages" representedClassName="GiftPackages" syncable="YES">
+        <attribute name="currencyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardAmount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardAvailableQuantity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardContactPerson" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardContactPhone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardDetails" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardHeading" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardMemberName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardPostalCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardSubHeading" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardTerms" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageFirst" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageFirstSmall" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageFourth" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageFourthSmall" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageSecond" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageSecondSmall" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageThird" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageThirdSmall" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="InvestmentCategory" representedClassName="InvestmentCategory" syncable="YES">
+        <attribute name="categoryId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="categoryText" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Labels" representedClassName="Labels" syncable="YES">
+        <attribute name="countryId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="keyText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="labelId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="languageId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="valueText" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LanguageInfo" representedClassName="LanguageInfo" syncable="YES">
+        <attribute name="languageId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="languageName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LatestProducts" representedClassName="LatestProducts" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastBidAmount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sellCatId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sellCrrId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sellDateExpire" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sellDatePosted" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sellDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sellEnteredByMemId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sellId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sellMemId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sellNoOfViews" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sellPricePerQuantityCash" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sellPricePerQuantityTrade" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sellQuantity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sellTitle" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LifestyleSearch" representedClassName="LifestyleSearch" syncable="YES">
+        <attribute name="currencyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardAmount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardAvailableQuantity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardContactPerson" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardContactPhone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardDetails" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardHeading" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardMemberName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardPostalCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardSubHeading" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftCardTerms" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageFirst" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageFirstSmall" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageFourth" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageFourthSmall" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageSecond" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageSecondSmall" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageThird" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageThirdSmall" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MarketPlaceCategories" representedClassName="MarketPlaceCategories" syncable="YES">
+        <attribute name="categoryId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="categoryName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MaxPrice" representedClassName="MaxPrice" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MinPrice" representedClassName="MinPrice" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ProductCategory" representedClassName="ProductCategory" syncable="YES">
+        <attribute name="categoryId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="categoryName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ProductDetail" syncable="YES"/>
+    <entity name="ProductsPerCategory" representedClassName="ProductsPerCategory" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latestBidAmount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rowNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selCategoryId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selCrrId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selDateExpire" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selDatePosted" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selDis" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selEnteredByMemId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selMemId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selNoOfViews" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selPricePerQuantityCash" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selPricePerQuantityTrade" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selQuantity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalPages" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalRecords" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SearchProducts" representedClassName="SearchProducts" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastBidAmount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selCatId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selCrrId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selDateExpire" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selDatePosted" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selEnteredByMemId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selMemId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selNoOfViews" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selPricePerQuantityCash" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selPricePerQuantityTrade" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selQuantity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selStaIDStatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selStaIDType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selTitle" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SellHistory" representedClassName="SellHistory" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selCatId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selCrrId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selDateExpire" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selDatePosted" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selEnteredByMemId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selMemId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selNoOfViews" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selPricePerQuantityCash" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selPricePerQuantityTrade" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selQuantity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selStaIDStatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selStaIdType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selTitle" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="StateInfo" representedClassName="StateInfo" syncable="YES">
+        <attribute name="stateId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stateName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Videos" representedClassName="Videos" syncable="YES">
+        <attribute name="link" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="WinesCategory" representedClassName="WinesCategory" syncable="YES">
+        <attribute name="categoryId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="categoryName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="WinesPerCategory" representedClassName="WinesPerCategory" syncable="YES">
+        <attribute name="selCatId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selCrrId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selDatePosted" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selEnteredByMemId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sellImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selMemId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selNoOfViews" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selPricePerQuantityCash" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selPricePerQuantityTrade" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selQuantity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selTitle" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Accomodation" positionX="-54" positionY="135" width="128" height="360"/>
+        <element name="AccountInfo" positionX="-45" positionY="135" width="128" height="300"/>
+        <element name="BuyHistory" positionX="-54" positionY="135" width="128" height="240"/>
+        <element name="Card" positionX="-45" positionY="135" width="128" height="105"/>
+        <element name="Contact" positionX="-63" positionY="-18" width="128" height="150"/>
+        <element name="CountryInfo" positionX="-45" positionY="135" width="128" height="73"/>
+        <element name="Directory" positionX="-45" positionY="135" width="128" height="375"/>
+        <element name="Events" positionX="-54" positionY="135" width="128" height="165"/>
+        <element name="Experiences" positionX="-45" positionY="144" width="128" height="358"/>
+        <element name="GiftPackages" positionX="-36" positionY="153" width="128" height="358"/>
+        <element name="InvestmentCategory" positionX="-45" positionY="135" width="128" height="75"/>
+        <element name="Labels" positionX="-36" positionY="144" width="128" height="120"/>
+        <element name="LanguageInfo" positionX="-36" positionY="144" width="128" height="75"/>
+        <element name="LatestProducts" positionX="-54" positionY="135" width="128" height="285"/>
+        <element name="LifestyleSearch" positionX="-36" positionY="144" width="128" height="360"/>
+        <element name="MarketPlaceCategories" positionX="-63" positionY="36" width="128" height="75"/>
+        <element name="ProductCategory" positionX="-45" positionY="135" width="128" height="75"/>
+        <element name="ProductDetail" positionX="-54" positionY="135" width="128" height="45"/>
+        <element name="ProductsPerCategory" positionX="-54" positionY="45" width="128" height="330"/>
+        <element name="SearchProducts" positionX="-54" positionY="135" width="128" height="315"/>
+        <element name="SellHistory" positionX="-45" positionY="144" width="128" height="285"/>
+        <element name="StateInfo" positionX="-45" positionY="135" width="128" height="75"/>
+        <element name="Videos" positionX="-45" positionY="135" width="128" height="75"/>
+        <element name="WinesCategory" positionX="-54" positionY="135" width="128" height="75"/>
+        <element name="WinesPerCategory" positionX="-54" positionY="135" width="128" height="240"/>
+        <element name="MaxPrice" positionX="-45" positionY="135" width="128" height="75"/>
+        <element name="MinPrice" positionX="-36" positionY="144" width="128" height="75"/>
+    </elements>
+</model>
