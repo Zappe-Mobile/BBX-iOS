@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1ADDEE4C-5CA0-47B5-A4B3-4C5D60C0A2A6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BBX</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7C4062AC-CAD7-4E63-B6B9-2F4081A1E73D</key>
+		<string>ssh://github.com/Zappe-Mobile/BBX-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BBX.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7C4062AC-CAD7-4E63-B6B9-2F4081A1E73D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/Zappe-Mobile/BBX-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7C4062AC-CAD7-4E63-B6B9-2F4081A1E73D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7C4062AC-CAD7-4E63-B6B9-2F4081A1E73D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BBX-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
